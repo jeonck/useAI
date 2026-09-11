@@ -57,12 +57,6 @@ layout: hextra-home
     icon="refresh"
   >}}
   {{< hextra/feature-card
-    title="복붙 치트시트"
-    subtitle="사장님 프롬프트 15개 한 장. 인쇄해서 카운터 옆에 붙여두세요"
-    link="docs/cheatsheet"
-    icon="clipboard-list"
-  >}}
-  {{< hextra/feature-card
     title="심화 · 업무 비서 만들기"
     subtitle="4시간 이후. 지침 → 자료 → 앱 연결 → 아침 브리핑 예약, 네 층 쌓기 (일부 유료)"
     link="docs/05-habit/05-business-assistant"
@@ -79,5 +73,11 @@ layout: hextra-home
     subtitle="4시간 이후. 한 문장으로 아침 브리핑 예약, 출처 달린 조사 리포트, 먼저 말 거는 비서 (무료 계정 사례)"
     link="docs/05-habit/07-muse"
     icon="speakerphone"
+  >}}
+  {{< hextra/feature-card
+    title="복붙 치트시트"
+    subtitle="사장님 프롬프트 15개 한 장. 인쇄해서 카운터 옆에 붙여두세요"
+    link="docs/cheatsheet"
+    icon="clipboard-list"
   >}}
 {{< /hextra/feature-grid >}}
