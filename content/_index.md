@@ -74,4 +74,10 @@ layout: hextra-home
     link="docs/05-habit/06-notebooklm"
     icon="book-open"
   >}}
+  {{< hextra/feature-card
+    title="심화 · Muse 선톡 비서"
+    subtitle="4시간 이후. 한 문장으로 아침 브리핑 예약, 출처 달린 조사 리포트, 먼저 말 거는 비서 (무료 계정 사례)"
+    link="docs/05-habit/07-muse"
+    icon="speakerphone"
+  >}}
 {{< /hextra/feature-grid >}}
