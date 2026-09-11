@@ -1,0 +1,79 @@
+baseURL = "https://useai.metacog.co.kr/"
+title = "useAI — 사장님을 위한 4시간 AI 실전반"
+theme = "hextra"
+defaultContentLanguage = "ko"
+enableRobotsTXT = true
+enableGitInfo = false
+hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ["html"]
+  page = ["html"]
+  section = ["html", "rss"]
+
+[params]
+  description = "자영업·소상공인 사장님이 딱 4시간 만에 ChatGPT를 내 가게 업무에 바로 써먹게 만드는 실전 교육 자료"
+  displayUpdatedDate = false
+  dateFormat = "2006년 1월 2일"
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = "full"
+
+  [params.page]
+    width = "normal"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = false
+    width = "normal"
+
+  [params.search]
+    enable = true
+    type = "flexsearch"
+    [params.search.flexsearch]
+      index = "content"
+      tokenize = "forward"
+
+  [params.toc]
+    displayTags = false
+
+  [params.highlight.copy]
+    enable = true
+    display = "hover"
+
+[[menu.main]]
+  name = "검색"
+  weight = 0
+  [menu.main.params]
+    type = "search"
+
+[[menu.main]]
+  name = "4시간 로드맵"
+  pageRef = "/docs"
+  weight = 1
+
+[[menu.main]]
+  name = "복붙 치트시트"
+  pageRef = "/docs/cheatsheet"
+  weight = 2
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/jeonck/useAI"
+  weight = 99
+  [menu.main.params]
+    icon = "github"
