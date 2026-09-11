@@ -62,4 +62,16 @@ layout: hextra-home
     link="docs/cheatsheet"
     icon="clipboard-list"
   >}}
+  {{< hextra/feature-card
+    title="심화 · 업무 비서 만들기"
+    subtitle="4시간 이후. 지침 → 자료 → 앱 연결 → 아침 브리핑 예약, 네 층 쌓기 (일부 유료)"
+    link="docs/05-habit/05-business-assistant"
+    icon="calendar"
+  >}}
+  {{< hextra/feature-card
+    title="심화 · NotebookLM 자료 질문"
+    subtitle="4시간 이후. 지원사업 공고·계약서·매뉴얼·리뷰 뭉치를 넣고 자료 안에서만 답 받기 (무료)"
+    link="docs/05-habit/06-notebooklm"
+    icon="book-open"
+  >}}
 {{< /hextra/feature-grid >}}
