@@ -70,10 +70,3 @@ hasCJKLanguage = true
   name = "복붙 치트시트"
   pageRef = "/docs/cheatsheet"
   weight = 2
-
-[[menu.main]]
-  name = "GitHub"
-  url = "https://github.com/jeonck/useAI"
-  weight = 99
-  [menu.main.params]
-    icon = "github"
